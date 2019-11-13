@@ -1,0 +1,18 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$8uC2NPmHx570$8noIp2LRG3ntaHjsohNsI0/fwIvs7gGMfx2VIriTIsw=",
+      "last_login": "2019-11-12T11:26:27.153Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.kz",
+      "date_joined": "2019-11-12T11:26:03.311Z",
+      "is_staff": true,
+      "is_active": true
+    }
+  }
+]

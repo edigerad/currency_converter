@@ -1,0 +1,29 @@
+#backend
+# Pycharm
+.idea/*
+
+# Basics
+*.py[cod]
+__pycache__
+
+# Logs
+logs
+*.log
+
+# Translations
+*.mo
+
+# virtual environments
+.env
+
+# generated static files
+staticfiles/
+
+#frontend
+
+.DS_Store
+.vscode
+
+node_modules/
+
+.idea

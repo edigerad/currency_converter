@@ -1,0 +1,107 @@
+{
+	"id": "910efea5-7a0d-1b0c-4af1-f02d2d17e520",
+	"name": "Currency Converter API",
+	"description": "",
+	"order": [
+		"7e26857c-19d2-cea9-4edc-5b02b371688e",
+		"514b20df-a634-6085-c43e-c167511565c2",
+		"1be2cf7c-9690-e333-1de2-dbc3e29159d8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1573366809530,
+	"owner": "688963",
+	"public": false,
+	"requests": [
+		{
+			"id": "1be2cf7c-9690-e333-1de2-dbc3e29159d8",
+			"headers": "Content-Type: application/json\nAuthorization: {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "{{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}/api/v0/currencies/rates/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "910efea5-7a0d-1b0c-4af1-f02d2d17e520",
+			"data": null,
+			"dataMode": "params",
+			"name": "Exchanges Rates List",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1573367697250,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "514b20df-a634-6085-c43e-c167511565c2",
+			"headers": "",
+			"headerData": [],
+			"url": "{{host}}/api/v0/currencies/list/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "910efea5-7a0d-1b0c-4af1-f02d2d17e520",
+			"data": null,
+			"dataMode": "params",
+			"name": "Currencies List",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1573367360068,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7e26857c-19d2-cea9-4edc-5b02b371688e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}/api/v0/login/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "910efea5-7a0d-1b0c-4af1-f02d2d17e520",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Obtain JWT Token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1573367572994,
+			"version": 2,
+			"responses": [],
+			"tests": "var jsonData = JSON.parse(responseBody);\n\ntests[\"login\"] = responseCode.code == 200;\n\npostman.setEnvironmentVariable(\"token\", \"JWT \"+jsonData.token);\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"username\": \"admin\", \"password\": \"admin\"}"
+		}
+	]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "model": "currencies.exchangerate",
+    "pk": 1,
+    "fields": {
+      "source_currency": "CZK",
+      "target_currency": "EUR",
+      "rate": 0.039,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 2,
+    "fields": {
+      "source_currency": "CZK",
+      "target_currency": "PLN",
+      "rate": 0.168,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 3,
+    "fields": {
+      "source_currency": "CZK",
+      "target_currency": "USD",
+      "rate": 0.043,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 4,
+    "fields": {
+      "source_currency": "EUR",
+      "target_currency": "CZK",
+      "rate": 25.554,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 5,
+    "fields": {
+      "source_currency": "EUR",
+      "target_currency": "PLN",
+      "rate": 4.282,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 6,
+    "fields": {
+      "source_currency": "EUR",
+      "target_currency": "USD",
+      "rate": 1.101,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 7,
+    "fields": {
+      "source_currency": "PLN",
+      "target_currency": "CZK",
+      "rate": 5.968,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 8,
+    "fields": {
+      "source_currency": "PLN",
+      "target_currency": "EUR",
+      "rate": 0.236,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 9,
+    "fields": {
+      "source_currency": "PLN",
+      "target_currency": "USD",
+      "rate": 0.258,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 10,
+    "fields": {
+      "source_currency": "USD",
+      "target_currency": "CZK",
+      "rate": 23.212,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 11,
+    "fields": {
+      "source_currency": "USD",
+      "target_currency": "EUR",
+      "rate": 0.908,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  },
+  {
+    "model": "currencies.exchangerate",
+    "pk": 12,
+    "fields": {
+      "source_currency": "USD",
+      "target_currency": "PLN",
+      "rate": 3.889,
+      "created_date": "2019-11-12T11:26:27.153Z",
+      "updated_date": "2019-11-12T11:26:27.153Z"
+    }
+  }
+]

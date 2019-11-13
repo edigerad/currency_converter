@@ -1,0 +1,34 @@
+[
+  {
+    "model": "currencies.currency",
+    "pk": 1,
+    "fields": {
+      "code": "CZK",
+      "name": "Czech Republic Koruna"
+    }
+  },
+  {
+    "model": "currencies.currency",
+    "pk": 2,
+    "fields": {
+      "code": "EUR",
+      "name": "Euro"
+    }
+  },
+  {
+    "model": "currencies.currency",
+    "pk": 3,
+    "fields": {
+      "code": "PLN",
+      "name": "Polish Zloty"
+    }
+  },
+  {
+    "model": "currencies.currency",
+    "pk": 4,
+    "fields": {
+      "code": "USD",
+      "name": "United States Dollar"
+    }
+  }
+]
