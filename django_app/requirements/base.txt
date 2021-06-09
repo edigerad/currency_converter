@@ -1,4 +1,4 @@
-Django==2.2.7
+Django==2.2.22
 django-allauth==0.40.0
 django-celery-beat==1.5.0
 django-celery-results==1.1.2
