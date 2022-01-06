@@ -11,5 +11,5 @@ djangorestframework-jwt==1.11.0
 ipython==7.9.0
 postgres==2.2.2
 psycopg2-binary==2.8.3
-celery==4.3.0
+celery==5.2.2
 redis==3.3.11
